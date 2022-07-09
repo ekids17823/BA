@@ -34,7 +34,7 @@ modules:
 
 # 瀏覽器的設定
 browser:
-    type: chromium
+    type: firefox
     headless: true
     firefoxUserPrefs:
         dom.webaudio.enabled: false
