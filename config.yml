@@ -18,17 +18,17 @@ modules:
     lottery:
         max_attempts: 20
         max_parallel: 3
-    del_mail:
-        match: [{ title: "【勇者福利社】成功獲得抽獎資格通知信" }]
+#     del_mail:
+#         match: [{ title: "【勇者福利社】成功獲得抽獎資格通知信" }]
     logout:
 
     # 以下是寄報告的部分
-    telegram:
-        channel: $telegram_id
-    discord:
-        webhook: $discord_webhook
-    line_notify:
-        token: $line_token
+#     telegram:
+#         channel: $telegram_id
+#     discord:
+#         webhook: $discord_webhook
+#     line_notify:
+#         token: $line_token
     issue:
         pat: $github_token
 
