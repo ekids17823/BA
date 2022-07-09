@@ -17,7 +17,7 @@ modules:
     answer:
     lottery:
         max_attempts: 20
-        max_parallel: 3
+#         max_parallel: 3
 #     del_mail:
 #         match: [{ title: "【勇者福利社】成功獲得抽獎資格通知信" }]
     logout:
