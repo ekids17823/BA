@@ -2,6 +2,7 @@
   "success": true,
   "code": "0",
   "msg": "",
+  "Access-Control-Allow-Origin": "*",
   "data": {
     "AxisNames": [
       "日",
